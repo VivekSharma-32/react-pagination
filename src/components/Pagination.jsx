@@ -24,7 +24,7 @@ const Pagination = ({
             }
             onClick={() => handlePageChange(item)}
           >
-            {item}
+            {item + 1}
           </button>
         </div>
       ))}
